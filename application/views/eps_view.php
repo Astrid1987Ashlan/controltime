@@ -8,13 +8,10 @@
 		  width: 670px;
 		}
 		.demo-card-wide > .mdl-card__title {
-
 		  height: 60px;
 		  color: white;
 		  background: red;
-
 		}
-
 		.demo-card-wide > .mdl-card__menu {
 		  color: #fff;
 		}
@@ -31,12 +28,10 @@
 		.ba-align-right{
 			margin-left: 75%;
 		}
-
 /*SE CREA NUEVO FORMATO PARA LA TABLA QUE SE VA A CREAR ESTILO  FORMULARIO*/
 		.demo-card-wide.mdl-card1 {
 		  width: 1200px;
 		}
-
 		</style>
 
 		<div class="demo-card-wide mdl-card mdl-shadow--2dp ba-center">
@@ -48,9 +43,9 @@
 		  <div class="mdl-card__supporting-text">
 		  	<!-- CONTENIDO -->
 		  	<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-		  	    <input class="mdl-textfield__input" type="text" id="EPS_NOMBRE" name="EPS_NOMBRE">
+		  	    <input class="mdl-textfield__input" type="text" id="EPS_DESCRIPCION" name="EPS_DESCRIPCION">
 		  	    <!--Ingreso -->
-		  	    <label class="mdl-textfield__label" for="EPS_NOMBRE">NOMBRE DE LA EPS</label>
+		  	    <label class="mdl-textfield__label" for="EPS_DESCRIPCION">NOMBRE DE LA EPS</label>
 		  	 </div>
 
 		 </div>
@@ -106,4 +101,3 @@
 
 
 		 </div>
-
