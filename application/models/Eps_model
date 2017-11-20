@@ -1,0 +1,11 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Eps_model extends CI_Model {
+
+	public function getEps(){
+		$this->db->where();
+		$resultados = $this->db->get('eps');
+		return $resultados->result();
+	}	
+}
